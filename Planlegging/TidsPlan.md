@@ -8,6 +8,7 @@
   - Skisse applikasjonen i Figma.
   - Planlegge ressurser.
   - Sette opp tidsplan.
+  - Begrunne valg
 
 
 ## Dag 2-4: Implementering av Backend og Frontend
