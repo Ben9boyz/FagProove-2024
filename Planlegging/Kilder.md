@@ -5,4 +5,4 @@
   - [Omega Docs](https://omega-nt.omega365.com/nt/docs?Area-ID=10004)
   - [Stack Overflow](https://stackoverflow.com/)
 - **Ressurser**
-  - Kollegaer
+  - Omega Kollegaer
