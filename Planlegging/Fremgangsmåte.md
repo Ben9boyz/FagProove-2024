@@ -18,6 +18,7 @@
   - Bruk Bootstrap for å skape et brukervennlig system med fokus på tilgjengelighet.
   - Følg bedriftens rutine, minst mulig bruk av custom CSS der det lar seg gjøre.
   - Ivareta Universel Utforming ved hjelp av Bootstrap.
+  - Appen skal være brukbar på mobil og desktop
 
 #### Middle Layer:
 
