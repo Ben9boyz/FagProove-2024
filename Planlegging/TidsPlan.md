@@ -53,7 +53,7 @@
 - **Aktiviteter**:
   - Presentasjon og egenvurdering
 
-**Kostand estimat:**
+## Kostnad Estimat:
 - Timer: 47,5 timer
 - TimePris: 150kr
 - Total Kostand: 7 125kr
