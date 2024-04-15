@@ -2,12 +2,13 @@
 
 ## Dag 1: Planlegging og Forberedelse
 - **Aktiviteter**:
-  - Gjennomgang av oppgaven og kravene med PrøveEmnde.
-  - Planlegge DataModell til App, skrive eksempel med Draw SQL.
+  - Gjennomgang av oppgaven og kravene med Prøvenemnda.
+  - Planlegge datamodell til applikasjonen, skrive eksempel med Draw SQL.
   - Beslutning om valg av teknologier.
-  - Skisse App i Figma
-  - Planlegge Ressurser
-  - Sette Opp Tidsplan
+  - Skisse applikasjonen i Figma.
+  - Planlegge ressurser.
+  - Sette opp tidsplan.
+
 
 ## Dag 2-4: Implementering av Backend og Frontend
 - **Aktiviteter**:
