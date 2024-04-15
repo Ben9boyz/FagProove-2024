@@ -2,7 +2,7 @@
 
 1. **Innlegging av reviews:**
    - Brukere skal kunne fylle ut et skjema for å legge inn nye reviews.
-   - Skjemaet bør inneholde felt for Kommentar, dato/tid for hendelse, tlfnummer, Email og stjernerangering. Om bruker ikke skriver tlf eller email, vil det de har koblet opp mot brukeren sin bli brukt
+   - Skjemaet bør inneholde felt for Kommentar, dato/tid for hendelse, tlfnummer, Email og stjernerangering(1-5). Om bruker ikke skriver tlf eller email, vil det de har koblet opp mot brukeren sin bli brukt
    - Ikke mulighet for å legge inn review på samme hendelse
 
 2. **Oversikt over egne reviews:**
