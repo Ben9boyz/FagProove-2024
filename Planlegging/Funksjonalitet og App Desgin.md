@@ -31,4 +31,4 @@
    - Det skal være en enkel måte for bedriften å se alle reviews de har mottatt, inkludert tekst og rating.
 
 5. **TilgangsStyring**
-   -For å ha tilgang til denne appen må man få rollen Review Viewer, du vil kun kunne se bedriften du står som representant til i Appframe(se datamodell)
+   - For å ha tilgang til denne appen må man få rollen Review Viewer, du vil kun kunne se bedriften du står som representant til i Appframe(se datamodell)
