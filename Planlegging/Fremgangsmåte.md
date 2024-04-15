@@ -1,1 +1,1 @@
-
+Web Applikasjon som benyter Omega 365 New Tech rammverket, rammerverket bruker Vue.js, HTML,CSS, Javascript og Typescript til FrontEnd. Backend blir håndtert av Transact SQL Server med Appframe sikerhert og tilgangstyring. Dataen blir lagret På SQl Server som er i Azure
