@@ -9,6 +9,7 @@
   - Planlegge ressurser.
   - Sette opp tidsplan.
   - Begrunne valg
+  - Skrive Kostnadsforslag(timer dette vil ta)
 
 
 ## Dag 2-4: Implementering av Backend og Frontend
