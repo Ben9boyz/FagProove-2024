@@ -2,7 +2,7 @@
 
  **Visning av Bedrifter:**
    - liste av Bedrifter som man kan gi anmeldelse på
-   - Knapp for å lage ny review og knapp for å se gamle anmeldelser
+   - Knapp for å lage ny anmeldelse og knapp for å se gamle anmeldelser
 
  **Innlegging av reviews:**
    - Brukere skal kunne fylle ut et skjema for å legge inn nye reviews.
