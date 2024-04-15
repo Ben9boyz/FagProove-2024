@@ -1,13 +1,17 @@
-### Fremgangsmåte for å utvikle en Web Applikasjon med Omega 365 New Tech
+### Fremgangsmåte for å utvikle et Feedback-System for kundeService
 
-#### 1. Planleggingsfasen:
+#### Planleggingsfasen:
+
+- **Funksjonalitet**
+  Feed
+
 
 - **Skissering av design og layout:**
   - Bruk Figma for å lage en skisse av design og layout til applikasjonen.
 - **Oppretting av datamodell:**
   - Bruk SQL for å lage en skisse av datamodellen.
 
-#### 2. FrontEnd Utvikling:
+#### FrontEnd Utvikling:
 
 - **Rammeverk og teknologier:**
   - Benytt Omega 365 New Tech rammeverket.
