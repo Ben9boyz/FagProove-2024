@@ -2,10 +2,12 @@
 
 ## Dag 1: Planlegging og Forberedelse
 - **Aktiviteter**:
-  - Gjennomgang av oppgaven og kravene.
-  - Identifisering av nødvendige funksjonaliteter for tilbakemeldingssystemet.
-  - Beslutning om valg av teknologier: Vue.js, Microsoft SQL Server og Omega rammeverket.
-  - Oppsett av utviklingsmiljø.
+  - Gjennomgang av oppgaven og kravene med PrøveEmnde.
+  - Planlegge DataModell til App, skrive eksempel med Draw SQL.
+  - Beslutning om valg av teknologier.
+  - Skisse App i Figma
+  - Planlegge Ressurser
+  - Sette Opp Tidsplan
 
 ## Dag 2-4: Implementering av Backend og Frontend
 - **Aktiviteter**:
