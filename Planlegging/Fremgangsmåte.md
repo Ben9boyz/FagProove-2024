@@ -1,10 +1,5 @@
 ### Fremgangsmåte for å utvikle et Feedback-System for kundeService
 
-
-- **Funksjonalitet**
-  Feed
-
-
 #### Planleggingsfasen:
 
 - **Skissering av design og layout:**
