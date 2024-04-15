@@ -1,10 +1,11 @@
 ### Fremgangsmåte for å utvikle et Feedback-System for kundeService
 
-#### Planleggingsfasen:
 
 - **Funksjonalitet**
   Feed
 
+
+#### Planleggingsfasen:
 
 - **Skissering av design og layout:**
   - Bruk Figma for å lage en skisse av design og layout til applikasjonen.
