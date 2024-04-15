@@ -4,12 +4,11 @@
 - **Aktiviteter**:
   - Gjennomgang av oppgaven og kravene med Prøvenemnda.
   - Planlegge datamodell til applikasjonen, skrive eksempel med Draw SQL.
-  - Beslutning om valg av teknologier.
+  - Beslutning om valg av teknologier, og ressurser.
   - Skisse applikasjonen i Figma.
-  - Planlegge ressurser.
   - Sette opp tidsplan.
   - Begrunne valg
-  - Skrive Kostnadsforslag(timer dette vil ta)
+  - Skrive Kostnadsforslag(timer)
 
 
 ## Dag 2-4: Implementering av Backend og Frontend
