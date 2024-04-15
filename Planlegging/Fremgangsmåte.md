@@ -35,7 +35,7 @@
 - **Tilgangskontroll:**
   - Bygg sikkerhet i SQL ved hjelp av Omegas innebygde tilgangsstyring.
   - Følg bedriftens standarder for tilgangskontroll.
-  - Bygg sikkerhet i SQL Views og SQL Triggere som er koblet opp mot Rammeverket tilgangstyings, i tråd med Omega standarder.
+  - Sikkerhet i SQL Views og SQL Triggere som er koblet opp mot Rammeverket tilgangstyings tabeller, i tråd med Omega standarder.
 - **Innlogging:**
   - Lagring og håndtering av Brukernavn og passord er satt opp i Azure.
   - Login er koblet opp mot en login På Sql Server, login har oppkobling mot Database bruker i system.
