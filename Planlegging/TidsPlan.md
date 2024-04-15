@@ -11,11 +11,24 @@
   - Skrive Kostnadsforslag(timer)
 
 
-## Dag 2-4: Implementering av Backend og Frontend
+## Dag 2: Få Datamodell Opp
 - **Aktiviteter**:
-  - Implementering av backend-logikk for håndtering av tilbakemeldinger ved hjelp av Omega rammeverket.
-  - Utvikling av frontend-komponenter og integrasjon med backend ved hjelp av Vue.js.
-  - Testing av funksjonalitet og feilsøking.
+  - Sette opp Datamodell for App og lage SQL Objekter 
+  - Begynne på BedriftApp dashbord
+  - Logging av arbeid og dokumentering
+
+## Dag 3: Få Datamodell Opp
+- **Aktiviteter**:
+  - Fullføre BedriftApp dashbord
+  - Begynne på besvarelse funksjon i BedriftApp
+  - Logging av arbeid og dokumentering
+
+## Dag 4: Få Datamodell Opp
+- **Aktiviteter**:
+  - Fullføre besvarelse funksjon i BedriftApp
+  - Begynne på Br
+  - Logging av arbeid og dokumentering
+
 
 ## Dag 5-6: Testing og Feilretting
 - **Aktiviteter**:
