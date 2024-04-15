@@ -43,4 +43,4 @@
 - Testing vil skje underveis som Appen utikles.
 
 #### Dokumentasjon:
-- Følgende dokumentasjon skal skrive: Systemdokumentasjon, brukerveiledning og en rapport om testingen.
+- Følgende dokumentasjon skal skrives: Systemdokumentasjon, brukerveiledning og en rapport om testingen.
