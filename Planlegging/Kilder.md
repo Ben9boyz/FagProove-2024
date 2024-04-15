@@ -6,5 +6,6 @@
   - [Stack Overflow](https://stackoverflow.com/)
   - [High Charts (om løsning med Diagramer blir implementert)](https://www.highcharts.com/docs/index)
   - [W3schools](https://www.w3schools.com/)
+  - [Draw SQL](https://drawsql.app/)
 - **Ressurser**
   - Omega Kollegaer
