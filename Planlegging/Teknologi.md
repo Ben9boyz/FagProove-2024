@@ -33,6 +33,10 @@ Som nevnt tidligere, bruker Omega 365 SQL Server for data lagring.
 
 Selvfølgelig bruker jeg standard webteknologier som HTML, CSS og JavaScript under utvikling av en webapplikasjon.
 
+## HighCharts
+
+Bruker HighCharts til å lage Diagramer, detter er innebygd i Appframe så velger å bruke det.
+
 ## Figma
 
 For å skissere av applikasjonen, bruker jeg Figma. Dette verktøyet gir meg muligheten til å lage raske og gode mockups.
