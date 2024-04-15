@@ -6,6 +6,7 @@
 
 
  **Figma**
+ 
  **[KundeApp](https://www.figma.com/file/9QIuSymotS8JhhNkXqxFbd/Feedback-System-for-KundeService?type=design&node-id=0-1&mode=design)**
 ![image](https://github.com/Ben9boyz/FagPr-ve-2024/assets/167029110/b4c8cae0-d66b-477c-9acc-9dcd1186868f)
  **[BedriftApp](https://www.figma.com/file/9QIuSymotS8JhhNkXqxFbd/Feedback-System-for-KundeService?type=design&node-id=1-2&mode=design)**
