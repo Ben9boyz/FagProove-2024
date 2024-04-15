@@ -16,6 +16,7 @@
   - Bootstrap 5 er innebygd i Appframe og er standarden.
   - Bruk Bootstrap for å skape et brukervennlig system med fokus på tilgjengelighet og enkel styling av applikasjonen.
   - Følg bedriftens rutine, minst mulig bruk av custom CSS der det lar seg gjøre.
+  - Ivareta Universel Utforming ved hjelp av Bootstrap
 
 #### Middle Layer:
 
