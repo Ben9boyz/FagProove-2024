@@ -22,7 +22,7 @@
 #### Middle Layer:
 
 - **Håndteres av Appframe(APIet):**
-  - Sikkerhet og samspill mellom SQL server og frontend håndteres av Rammeverket
+  - Sikkerhet og samspill mellom SQL server og frontend håndteres av Appframe
 
 #### Backend Utvikling:
 
