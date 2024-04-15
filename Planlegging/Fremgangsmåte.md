@@ -38,3 +38,9 @@
   - Bygg sikkerhet i SQL ved hjelp av Omegas innebygde tilgangsstyring.
   - Følg bedriftens standarder for tilgangskontroll.
   - Sikkerheten i SQL Views og SQL Triggere som er koblet opp mot Rammeverket tilgangstyings tabeller, i tråd med Omega standarder.
+
+#### Testing:
+- Testing vil skje underveis som Appen utikles.
+
+#### Dokumentasjon:
+- Følgende dokumentasjon skal skrive: Systemdokumentasjon, brukerveiledning og en rapport om testingen.
