@@ -1,4 +1,4 @@
-### Fremgangsmåte for å utvikle et Feedback-System for kundeService
+### Fremgangsmåte for å utvikle et Feedback-System for KundeService
 
 #### Planleggingsfasen:
 
