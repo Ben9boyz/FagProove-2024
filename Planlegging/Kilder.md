@@ -5,6 +5,6 @@
   - [Omega Docs](https://omega-nt.omega365.com/nt/docs?Area-ID=10004)
   - [Stack Overflow](https://stackoverflow.com/)
   - [High Charts (om løsning med Diagramer blir implementert)](https://www.highcharts.com/docs/index)
-  -[W3schools](https://www.w3schools.com/)
+  - [W3schools](https://www.w3schools.com/)
 - **Ressurser**
   - Omega Kollegaer
