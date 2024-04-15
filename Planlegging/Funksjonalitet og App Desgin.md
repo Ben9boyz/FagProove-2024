@@ -12,7 +12,10 @@
 3. **Svarfunksjonalitet:**
    - Brukere skal kunne svare på responsen til egne reviews.
    - Svar bør kunne legges inn direkte under det tilsvarende reviewet.
-
+     
+5. **TilgangsStyring**
+   - For å ha tilgang til denne appen må man få rollen Review User, man skal kun kunne se Reviews man selv har lagt inn og besvarelse på den.
+     
 ### App 2: BedriftsApp for å se og svare på reviews
 
 1. **Dashboard med oversikt:**
