@@ -16,7 +16,7 @@
 
 ### Oppsummering av Dagen:
 
-Dagen har stort sett gått etter planen, og jeg har oppnådd de målene jeg hadde. Planen for i morgen er å fokusere på å fullføre all funksjoner som opprinnelig var planlagt for BedriftAppen. I tillegg vurderer jeg å legge til en kolonne for anonyme anmeldelser i review-tabellen, slik at bruker kan velge om de vil legge inn anmeldelser anonymt.
+Dagen har stort sett gått etter planen, og jeg har oppnådd de målene jeg hadde.
 
 ### Plan for I Morgen:
 
