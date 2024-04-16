@@ -20,7 +20,7 @@ Dagen har stort sett gått etter planen, og jeg har oppnådd de målene jeg hadd
 
 ### Plan for I Morgen:
 
-- Fullføre all opprinnelig planlagt funksjonalitet for BedriftAppen.
+- Fullføre dashboard for BedriftAppen.
 - Få på plass tilgangs styring i SQL
 - Legge til en anonymitetskolonne i review-tabellen?.
 
