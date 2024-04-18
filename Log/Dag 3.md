@@ -1,17 +1,20 @@
 ## Oppdateringer og Fremskritt
 
 - Fikk implementert svarfunksjonen for anmeldelser.
-- Fullførte nedstemmingsfunksjonaliteten i BedriftsDashboard.
-- Starter arbeidet med Kundeappen i morgen for å legge til anmeldelser.
 - Implementerte logikk i Views for tilgangsstyring.
-- Ingen fremgang med ideen om anonyme felt i anmeldelser så langt.
-- Planlegger å fullføre Kundeappen i morgen for å kunne bruke fredagen og helgen til å legge til ekstra funksjonalitet.
-- Vurderer å legge til mer statistikk i dashbordet.
-- Vurdere også å implementere funksjonalitet i kundeportalen.
+- Bruket mye tid på desgin
+- Laget komponent for å filtrere data ut
+- Kan nå søke i reviews
+  
+
+  ## Extra Funksjonalitet
+  - Legge til mer statistikk i dashbordet.
+  - Legge til auto response for bedrifter slik at de ikke må svare manuelt på alle anmeldelser
 
 ## Plan for i morgen
+- Starter arbeidet med Kundeappen i morgen for å legge til inn anmeldelser.
+- Ser at jeg kanskje har bedre tide en planlagt, håper å kunne bruke fredagen og helgen til å legge til ekstra funksjonalitet.
 
-- Fortsett arbeidet med Kundeappen for å legge til anmeldelser.
-- Vurdere å legge til ekstra funksjonalitet i BedriftsDashboard.
-- Evaluere muligheten for å implementere anonyme felt i anmeldelser.
 
+
+![image](https://github.com/Ben9boyz/FagProove-2024/assets/167029110/2486722c-25ad-4509-9ddf-510c7664251e)
