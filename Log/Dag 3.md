@@ -9,7 +9,7 @@
 - Vurderer å legge til mer statistikk i dashbordet.
 - Vurdere også å implementere funksjonalitet i kundeportalen.
 
-## Planer for i morgen
+## Plan for i morgen
 
 - Fortsett arbeidet med Kundeappen for å legge til anmeldelser.
 - Vurdere å legge til ekstra funksjonalitet i BedriftsDashboard.
