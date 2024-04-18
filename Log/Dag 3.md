@@ -15,6 +15,6 @@
 - Starter arbeidet med Kundeappen i morgen for å legge til inn anmeldelser.
 - Ser at jeg kanskje har bedre tide en planlagt, håper å kunne bruke fredagen og helgen til å legge til ekstra funksjonalitet.
 
-
+## App Layout i dag for BedriftApp sin svar funksjon
 
 ![image](https://github.com/Ben9boyz/FagProove-2024/assets/167029110/2486722c-25ad-4509-9ddf-510c7664251e)
