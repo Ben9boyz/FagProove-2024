@@ -3,7 +3,7 @@
 - Fått inn flere grafer og mer statisikk i BedriftApp
 
 
-## Plan for i Dag 6
+## Plan for  Dag 6
 - Skrive dokumentasjon
 
 ## App Layout oppdatering
