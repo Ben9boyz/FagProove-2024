@@ -4,7 +4,7 @@
 - Har forandret på sikkerhets modell, jeg går vekk fra å bruke represents kollone på person. Jeg velger istede for å bruke Omega 365 sitt innebygde OrgUnit system for å holde kontroll på hvem som kan se hvilke bedrift. Dette gir mulighet for å ha tilgang til flere bedrifter og skaper bedre sikkerhet.
   
 
-## Plan for i Helgen
+## Plan for Helgen
 - Legge til mer statistikk i BedriftApp
 - Gjøre ting om til komponenter i site setup
 
