@@ -232,54 +232,53 @@ Har også sjekk på om bruker oppretter flere en en anmeldelse på samme bedrift
 <hr />
 </details>
 
+# Grensesnittbeskrivelse
 
-<details open>
-  <summary>
-    <h2>Grensesnittbeskrivelse</h2>
-  </summary>
-Feedback Systemet består av 2 apper
-    
+Feedback Systemet består av 2 apper:
+
 ## Company FeedBack
-  Appen har to visninger, en der du kan se dine anmeldelser og en for bedrifter du kan legge anmeldelser på.
-  Bruker oppretter en anmeldelse gjennom et skjema som inneholder Rating, E-post, Tittel, Kommentar, Dato og Telefonnummer. Brukerens navn blir hentet ut fra deres ID som blir lagret i CreatedBy_ID.
+Appen har to visninger, en der du kan se dine anmeldelser og en for bedrifter du kan legge anmeldelser på. Brukeren oppretter en anmeldelse gjennom et skjema som inneholder Rating, E-post, Tittel, Kommentar, Dato og Telefonnummer. Brukerens navn blir hentet ut fra deres ID som blir lagret i CreatedBy_ID.
 
-  Brukeren kan på siden med sine anmeldelser se hvilke svar fra bedriften. De har også mulighet til å slette og redigere anmeldelsene sine.
+På siden med sine anmeldelser kan brukeren se hvilke svar fra bedriften. De har også mulighet til å slette og redigere anmeldelsene sine.
 
 ## Company FeedBack Statistics
-Her kan brukere som har fått ReviewStatisticsViewer-rollen se review statistikk på bedriften de står i og svare på anmeldelser. Det er sider en for generell statistikk og en for å se på anmeldelser. 
+Her kan brukere som har fått ReviewStatisticsViewer-rollen se review statistikk på bedriften de står i og svare på anmeldelser. Det er sider en for generell statistikk og en for å se på anmeldelser.
 
 ### General
-- ### Rating
+- #### Rating
   - Inneholder gjennomsnittlig vurdering og antall anmeldelser bedriften har fått. Har også prosentbokser under som viser fordeling av vurderinger.
-- #### Grafer
+- #### Graphs
   - Inneholder grafer om fordeling av vurderinger og kan bytte til en graf som viser vurderingenes utvikling over tid.
-- #### Anmeldelser
+- #### Reviews
   - Viser hvor mange anmeldelser bedriften har svart på og hvor mange de ikke har svart på.
-- #### Ubesvarte anmeldelser
+- #### UnansweredReviews
   - Viser tre anmeldelser bedriften ikke har svart på. Er skjult om det ikke er noen ubesvarte.
+
 ### Reviews
   - Viser en listevisning av anmeldelser, filtrert enten på ubesvarte anmeldelser eller besvarte anmeldelser. Mulighet til å svare ved bruk av tekstboks under anmeldelser på anmeldelser som ikke har svar.
-  </summary>
- 
-  <hr />
-</details>
 
-<details open>
-  <summary>
-    <h2>Hindringer under utviklingen</h2>
-  </summary>
+<hr />
 
-  <hr />
-</details>
+# Hindringer under utviklingen
 
-<details open>
-  <summary>
-    <h2>Avvik fra plan</h2> (Endringer under utvikling)
-  </summary>
-  
+- Hadde lyst på animasjon på TextArea ved utviding, fant ut at det ikke funket så bra nå man skal utvide TextArea boksen i etterkant.
+- Fikk problemer pga at jeg satt opp appen min til å bruke libraries istedenfor moduler. Har ingen erfaring med library versjonen og dette er helt nytt i rammeverket. Funket ikke å gjøre getDataObjectById hele tiden så måtte sende dataObject ned via props.
+- Hadde problemer med å generere grafer som ikke var synlige på, gjorde egt på onMounted event men siden graf boksene ikke var synlige feilet genereringen. Etter liten stund endte jeg opp å flytte grafene inn i egne components som hadde egen OnMounted event slik at de ikke ble generert når man bare åpnet siden, men heller når man byttet til taben de var på.
+- Prøvde å bruke UNION ALL i en atbv istedenfor OR siden tenkte det ville gi bedre performance, dette funket ikke i praksis siden SQL ikke liker å gjøre insert på view med UNION ALL.
 
-  <hr />
-</details>
+<hr />
+
+# Avvik fra plan (Endringer under utvikling)
+
+## TilgangsStying
+Skulle egentlig bruke feltet representsCompany_ID i atbl_System_Persons for å finne ut hvilke bedrift du skulle se i statistikkappen. Fant ut mitt i utviklingen at bruker har tilgang å bytte til alle companies de har fått rolle med orgUnit mot company. Dette gjør at selv om du i utgangspunktet har bare fått rolle for å se data i f.eks. Omega Gourmet, kan du bytte represents til en annen bedrift. Dette skaper et sikkerhetshull. Derfor byttet jeg til OrgUnit struktur slik at bruker må spesifikt få rollen  på OrgUnit (Company) de skal kunne se statistikken til. Dette gjør det også enklere å dele ut tilgang siden bruker arver tilgang ned i treet. Det er også mye enklere å bytte mellom companies om du har tilgang, siden du kan bruke context selectoren oppe til venstre.
+
+## Mail Response
+La til at bruker får mail med respons når bedrift svarer.
+
+## Komponenter
+Endte opp å lage mange flere komponenter enn planlagt.
+
   <h2>Kilder</h2>
   
   - [Bootstrap 5 Docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
