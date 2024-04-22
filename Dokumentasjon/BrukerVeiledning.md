@@ -59,10 +59,18 @@
       <td>I hvert boks kan du se bedrifter med deres lokasjon og kontakt info. Trykker dup på Write Review blir du tatt til en form der du kan legge inn anmeldelsen din</td>
       <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/04e6070d-474a-4c83-a8d6-a2123476af83" width="200"></th>  
     </tr>
-    
             <tr>
-      <td>Du kan svare på anmeldser i text boksen under anmeldsenen, Når du har skrevet inn relevant respons trykker du på send. (Maks 1000 tegn)</td>
-      <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/77caa1d8-afa6-47c0-b4b2-b64abf182bc8" width="200"></th>   
+      <td>Du kan søke i søke boksen på bedrifter via navn</td> 
+      <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/1087c9fe-d9bb-424e-8386-285c36f3d3cc" width="200"></th>   
+    </tr>
+  </table>
+
+   #### Form
+  
+  <table>
+    <tr>
+      <td>Har får du et skjema du må fylle ut. Du må oppgi rating, tittel, beskrivelse, dato for det anmeldelsen gjelder, telefonnummer med landskode og epost. Når du har fylt ut alle feltene trykker du på Send Inn Review</td>
+      <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/6f6aef21-ad0b-4a47-89b9-f2f40e136a82" width="200"></th> 
     </tr>
   </table>
   
