@@ -52,5 +52,48 @@
         </table>
       </details>
     </li>
+        <li>
+      <details>
+        <summary>Reviews</summary>
+        <table>
+          <tr>
+            <th>Funksjon</th>
+            <th>Beskrivelse</th>
+            <th>Resultat</th>
+            <th>Bilder</th>
+          </tr>
+                    <tr>
+            <th>Sjekke at svaring av kunde funker</th>
+            <td>Svare på review</td>
+            <td>✅</td>
+            <td>
+              <table>
+                <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/610d359a-593e-4969-a694-601cc65a4d21" width="200" /></th>
+              </table>
+            </td>
+          </tr>
+                    <tr>
+            <th>Filtreing av svarte reviews og Filtering av usvarte reviews</th>
+            <td>Sjekker om rett vises basert på valg</td>
+            <td>✅</td>
+            <td>
+              <table>
+                <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/a76ae18b-235c-4a52-8281-23b4b9b55332" width="200" /></th>
+              </table>
+            </td>
+          </tr>
+                              <tr>
+            <th>Søking</th>
+            <td>Sjekker om søke funksjon funker</td>
+            <td>✅</td>
+            <td>
+              <table>
+                <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/5f0dc3c3-43e7-48ed-a943-268a7584a6a8" width="200" /></th>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </details>
+    </li>
   </ol>
 </details>
