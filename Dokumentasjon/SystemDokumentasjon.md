@@ -272,6 +272,8 @@ Her kan brukere som har fått ReviewStatisticsViewer-rollen se review statistikk
 
 ## TilgangsStying
 Skulle egentlig bruke feltet representsCompany_ID i atbl_System_Persons for å finne ut hvilke bedrift du skulle se i statistikkappen. Fant ut mitt i utviklingen at bruker har tilgang å bytte til alle companies de har fått rolle med orgUnit mot company. Dette gjør at selv om du i utgangspunktet har bare fått rolle for å se data i f.eks. Omega Gourmet, kan du bytte represents til en annen bedrift. Dette skaper et sikkerhetshull. Derfor byttet jeg til OrgUnit struktur slik at bruker må spesifikt få rollen  på OrgUnit (Company) de skal kunne se statistikken til. Dette gjør det også enklere å dele ut tilgang siden bruker arver tilgang ned i treet. Det er også mye enklere å bytte mellom companies om du har tilgang, siden du kan bruke context selectoren oppe til venstre.
+
+## atbl_BenjaminKOsnes_ReviewResponse
 Fjernet Resposne_ID i Response tabellen, følte ikke det var nødvendig at bruker og bedrift kunne svare igjen på en response
 
 ## Mail Response
