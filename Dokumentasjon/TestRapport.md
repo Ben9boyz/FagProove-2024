@@ -130,6 +130,16 @@
               </table>
             </td>
           </tr>
+                    <tr>
+            <td>Bedrifs søk</td>
+            <td>Sjekke at rett bedrift kommer opp ved søking</td>
+            <td>✅</td>
+            <td>
+              <table>
+                <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/84933ba3-5fb9-4253-8c8a-e77a451abd73" width="200" /></th>
+              </table>
+            </td>
+          </tr>
         </table>
       </details>
     </li>
