@@ -69,7 +69,8 @@
   
   <table>
     <tr>
-      <td>Har får du et skjema du må fylle ut. Du må oppgi rating, tittel, beskrivelse, dato for det anmeldelsen gjelder, telefonnummer med landskode og epost. Når du har fylt ut alle feltene trykker du på Send Inn Review</td>
+      <td>Har får du et skjema du må fylle ut. Du må oppgi rating, tittel, beskrivelse, dato for det anmeldelsen gjelder, telefonnummer med landskode og epost. Når du har fylt ut alle feltene trykker du på Send Inn Review. vil du gå tilbake 
+ trykker du på tilbake pilen oppe til venstre</td>
       <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/6f6aef21-ad0b-4a47-89b9-f2f40e136a82" width="200"></th> 
     </tr>
   </table>
