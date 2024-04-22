@@ -162,7 +162,7 @@ Dette viewet viser Capabilities du har i den contexten(OrgUnit_ID) du står i.
 
 ### Autentisering og Tilgangsstyring i Appframe
 
-Autentiseringen på nettsiden vår håndteres gjennom Appframe. Når brukerne besøker siden, møtes de først av en innloggingsside. Her får de valget mellom å logge inn med Microsoft-konto eller med SQL-innlogging ved å oppgi e-postadresse/telefonnummer og passord. Hvis brukeren velger Microsoft, skjer autentiseringen internt hos Microsoft, og det returneres en token som knyttes til brukeren i systemet.
+Autentiseringen på nettsiden håndteres gjennom Appframe. Når brukerne besøker siden, møtes de først av en innloggingsside. Her får de valget mellom å logge inn med Microsoft-konto eller med SQL-innlogging ved å oppgi e-postadresse/telefonnummer og passord. Hvis brukeren velger Microsoft, skjer autentiseringen internt hos Microsoft, og det returneres en token som knyttes til brukeren i systemet.
 
 I Appframe er tilgangsstyring satt opp gjennom tilgangstabeller. Brukere har roller, hvor rollen definerer hvilke moduler brukeren har tilgang til. Modulene inneholder data om hvilke apper brukeren kan få tilgang til og tabeller brukeren kan få data fra. Det står også om brukeren har tilgang til å redigere data (AllowEdit) og slette data (AllowDelete). Rollen de har kan også inneholde capabilities, spesifikke tilganger brukeren kan få. Hver rolle som tildeles må tildeles på en OrgUnit.
 
@@ -218,7 +218,7 @@ Denne rollen gir brukeren Capabilitien CanViewCompanyReviews. Denne gir deg muli
 Dataene som vises til brukeren blir filtrert basert på hvilken kontekst de har i OrgUnit-treet.
 
 ## Triggere
-Triggerene til tabellen tar seg hånd om at bruker ikke kan redigere andres review eller slette reviews.
+Triggerene til tabellen tar seg hånd om at bruker ikke kan redigere eller slette andres reviews.
 Har også sjekk på om bruker oppretter flere en en anmeldelse på samme bedrift
 
 ## Logikk i atbv
@@ -239,7 +239,7 @@ Feedback Systemet består av 2 apper:
 ## Company FeedBack
 Appen har to visninger, en der du kan se dine anmeldelser og en for bedrifter du kan legge anmeldelser på. Brukeren oppretter en anmeldelse gjennom et skjema som inneholder Rating, E-post, Tittel, Kommentar, Dato og Telefonnummer. Brukerens navn blir hentet ut fra deres ID som blir lagret i CreatedBy_ID.
 
-På siden med sine anmeldelser kan brukeren se hvilke svar fra bedriften. De har også mulighet til å slette og redigere anmeldelsene sine.
+På siden med sine anmeldelser kan brukeren se svar fra bedrifter. De har også mulighet til å slette og redigere anmeldelsene sine.
 
 ## Company FeedBack Statistics
 Her kan brukere som har fått ReviewStatisticsViewer-rollen se review statistikk på bedriften de står i og svare på anmeldelser. Det er sider en for generell statistikk og en for å se på anmeldelser.
@@ -277,7 +277,7 @@ Skulle egentlig bruke feltet representsCompany_ID i atbl_System_Persons for å f
 La til at bruker får mail med respons når bedrift svarer.
 
 ## Komponenter
-Endte opp å lage mange flere komponenter enn planlagt.
+
 
   <h2>Kilder</h2>
   
