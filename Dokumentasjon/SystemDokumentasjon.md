@@ -6,8 +6,8 @@
   - #### Omega 365 NT (Appframe).
     
     - Innebygd sikkerhet: Omega 365 NT har innebygd sikkerhet.
-    - Bedriftens standard : Omega 365 NT er en del av bedriftens standardverktøy.
-    - Rikelig med komponenter: Omega 365 NT tilbyr et bredt spekter av komponenter.
+    - Bedriftens standard : Omega 365 NT er en del av bedriftens standard.
+    - Rikelig med komponenter: Omega 365 NT tilbyr en del komponenter.
         #### Teknologier innebygd i Appframe.
       - HighCharts: Brukt for å lage grafer
       - SQL Server: Brukt for datahåndtering og tilgangstyring
