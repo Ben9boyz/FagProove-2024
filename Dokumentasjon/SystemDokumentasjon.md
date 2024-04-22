@@ -217,6 +217,10 @@ Gir tilgang til Company Feedback stats appen, og lese og redigeringstilgang i at
 Denne rollen gir brukeren Capabilitien CanViewCompanyReviews. Denne gir deg mulighet til å se andres reviews til companies som ligger på eller under OrgUnit de har fått rollen på. 
 Dataene som vises til brukeren blir filtrert basert på hvilken kontekst de har i OrgUnit-treet.
 
+## Triggere
+Triggerene til tabellen tar seg hånd om at bruker ikke kan redigere andres review eller slette reviews.
+Har også sjekk på om bruker oppretter flere en en anmeldelse på samme bedrift
+
 ## Logikk i atbv
 ### atbv_BenjaminKOsnes_Reviews:
 
@@ -232,8 +236,29 @@ Dataene som vises til brukeren blir filtrert basert på hvilken kontekst de har 
 <details open>
   <summary>
     <h2>Grensesnittbeskrivelse</h2>
-
+  </summary>
+Feedback Systemet består av 2 apper
     
+## Company FeedBack
+  Appen har to visninger, en der du kan se dine anmeldelser og en for bedrifter du kan legge anmeldelser på.
+  Bruker oppretter en anmeldelse gjennom et skjema som inneholder Rating, E-post, Tittel, Kommentar, Dato og Telefonnummer. Brukerens navn blir hentet ut fra deres ID som blir lagret i CreatedBy_ID.
+
+  Brukeren kan på siden med sine anmeldelser se hvilke svar fra bedriften. De har også mulighet til å slette og redigere anmeldelsene sine.
+
+## Company FeedBack Statistics
+Her kan brukere som har fått ReviewStatisticsViewer-rollen se review statistikk på bedriften de står i og svare på anmeldelser. Det er sider en for generell statistikk og en for å se på anmeldelser. 
+
+### General
+- ### Rating
+  - Inneholder gjennomsnittlig vurdering og antall anmeldelser bedriften har fått. Har også prosentbokser under som viser fordeling av vurderinger.
+- #### Grafer
+  - Inneholder grafer om fordeling av vurderinger og kan bytte til en graf som viser vurderingenes utvikling over tid.
+- #### Anmeldelser
+  - Viser hvor mange anmeldelser bedriften har svart på og hvor mange de ikke har svart på.
+- #### Ubesvarte anmeldelser
+  - Viser tre anmeldelser bedriften ikke har svart på. Er skjult om det ikke er noen ubesvarte.
+### Reviews
+  - Viser en listevisning av anmeldelser, filtrert enten på ubesvarte anmeldelser eller besvarte anmeldelser. Mulighet til å svare ved bruk av tekstboks under anmeldelser på anmeldelser som ikke har svar.
   </summary>
  
   <hr />
