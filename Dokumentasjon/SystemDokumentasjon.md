@@ -2,16 +2,21 @@
   <summary>
     <h2>Teknologier</h2>
   </summary>
-  ##Omega 365 NT (Appframe)
+
+  - #### Omega 365 NT (Appframe).
+    
     - Innebygd sikkerhet: Omega 365 NT har innebygd sikkerhet.
     - Bedriftens standard : Omega 365 NT er en del av bedriftens standardverktøy.
     - Rikelig med komponenter: Omega 365 NT tilbyr et bredt spekter av komponenter.
-    
+        #### Teknologier innebygd i Appframe.
+      - HighCharts: Brukt for å lage grafer
+      - SQL Server: Brukt for datahåndtering og tilgangstyring
+      - Vue.js: Brukt for FrontEnd utvikling
 
   - GitHub: Til dokumentering av prosjekte.
   - DrawSQL: Brukt for å lage SQL Tabell diagramm.
   - Figma: Brukt for skissing av apper
-  - HighCharts: innebygd i Omega 365, brukt for å lage grafer
+
     
   <hr>
 </details>
