@@ -47,16 +47,22 @@
   <summary>
     <h2>Company FeedBack </h2>
   </summary>
-  <p>
-    tekst
-  </p>
-  <table>
-    <th><img></th>
-  </table>
+  
+  #### Review fanen
+  
   <table>
     <tr>
-      <td>Test</td>
-      <th><img" width="200"></th> 
+      <td>Her har du mulighet til å filtere på dine anmeldelser og bedrifter du ikke har laget anmeldelse for</td>
+      <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/d0198b3b-6647-4582-8e15-ba9e8368dccc" width="200"></th> 
+    </tr>
+        <tr>
+      <td>I hvert boks kan du se bedrifter med deres lokasjon og kontakt info. Trykker dup på Write Review blir du tatt til en form der du kan legge inn anmeldelsen din</td>
+      <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/04e6070d-474a-4c83-a8d6-a2123476af83" width="200"></th>  
+    </tr>
+    
+            <tr>
+      <td>Du kan svare på anmeldser i text boksen under anmeldsenen, Når du har skrevet inn relevant respons trykker du på send. (Maks 1000 tegn)</td>
+      <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/77caa1d8-afa6-47c0-b4b2-b64abf182bc8" width="200"></th>   
     </tr>
   </table>
   
