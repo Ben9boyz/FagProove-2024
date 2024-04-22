@@ -188,9 +188,10 @@ Vanlige Brukere får bare DataBase rollen af_user, denne gir brukeren bare tilga
   <hr />
   
 ### Info til Utvikler
+
 Alle tabeller som blir opprettet i Appframe får en atbv(view med tilgangs sjekk).
 
-Atbv'en inneholder som regel en whereclause som sjekker om du har role som gir deg tilgang til å se data i tabellen som atbv er basert på. Annen sikkerhet kan legges til også om nedvøndig for ønsket
+Atbv'en inneholder som regel en whereclause som sjekker om du har role som gir deg tilgang til å se data i tabellen som atbv er basert på. Annen sikkerhet kan legges til også om nedvøndig
 Utvikler kan opprette Aviw's når det skal skrives custom views disse viewsen må passe på å innholde en from for tilgangssjekk eller en atbv
 Samme logikk som nevnt ovenfor gjelder for oppreting av stored procedurees eller functions
 
@@ -217,7 +218,13 @@ Denne rollen gir brukeren Capabilitien CanViewCompanyReviews. Denne gir deg muli
 Dataene som vises til brukeren blir filtrert basert på hvilken kontekst de har i OrgUnit-treet.
 
 ## Logikk i atbv
-Logikk for begge rollene er lagt inn i atbv-ene til tabellen som blir brukt i begge appene.
+### atbv_BenjaminKOsnes_Reviews:
+
+![image](https://github.com/Ben9boyz/FagProove-2024/assets/167029110/a9e6b832-d835-4849-82b9-53412c6dfc65)
+
+### atbv_BenjaminKOsnes_ReviewsResponses:
+![image](https://github.com/Ben9boyz/FagProove-2024/assets/167029110/92d6d218-6914-4c36-8a50-626b1010d6e7)
+
 <hr />
 </details>
 
@@ -225,6 +232,8 @@ Logikk for begge rollene er lagt inn i atbv-ene til tabellen som blir brukt i be
 <details open>
   <summary>
     <h2>Grensesnittbeskrivelse</h2>
+
+    
   </summary>
  
   <hr />
