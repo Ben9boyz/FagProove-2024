@@ -204,6 +204,26 @@ Logikk rundt OrgUnits må implementeres manuelt av utvikler
 </details>
 <details open>
   <summary>
+    <h2>Tilgangs styring i FeedBack Systemet</h2>
+  </summary>
+
+## ReviewUser
+Gir tilgang til Company Feedback appen, og lese, slette og redigeringstilgang i atbl_BenjaminKOsnes_CompanyReviews.
+Kan ikke se andre brukeres reviews.
+
+## ReviewStatisticsViewer 
+Gir tilgang til Company Feedback stats appen, og lese og redigeringstilgang i atbl_BenjaminKOsnes_CompanyReviewsResponses.
+Denne rollen gir brukeren Capabilitien CanViewCompanyReviews. Denne gir deg mulighet til å se andres reviews til companies som ligger på eller under OrgUnit de har fått rollen på. 
+Dataene som vises til brukeren blir filtrert basert på hvilken kontekst de har i OrgUnit-treet.
+
+## Logikk i atbv
+Logikk for begge rollene er lagt inn i atbv-ene til tabellen som blir brukt i begge appene.
+<hr />
+</details>
+
+
+<details open>
+  <summary>
     <h2>Grensesnittbeskrivelse</h2>
   </summary>
  
