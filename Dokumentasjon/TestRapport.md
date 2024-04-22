@@ -20,7 +20,7 @@
   <ol>
     <li>
       <details>
-        <summary>Mal</summary>
+        <summary>General</summary>
         <table>
           <tr>
             <th>Funksjon</th>
