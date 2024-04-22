@@ -12,6 +12,7 @@
       - HighCharts: Brukt for å lage grafer
       - SQL Server: Brukt for datahåndtering og tilgangstyring
       - Vue.js: Brukt for FrontEnd utvikling
+      - Bootsrap: For styling av FrontEnd
 
   - GitHub: Til dokumentering av prosjekte.
   - DrawSQL: Brukt for å lage SQL Tabell diagramm.
