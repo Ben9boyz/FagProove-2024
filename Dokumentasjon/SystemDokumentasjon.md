@@ -187,17 +187,22 @@ Dette viewet viser Capabilities du har i den contexten(OrgUnit_ID) du står i.
 
   <hr />
 </details>
-
-<details open>
-  <summary>
-    <h2>Kilder</h2>
-  </summary>
+  <h2>Kilder</h2>
+  
+  - [Bootstrap 5 Docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+  - [Vue.js Docs](https://vuejs.org/guide/introduction.html)
+  - [ChatGPT](https://chat.openai.com/)
+  - [Omega Docs](https://omega-nt.omega365.com/nt/docs?Area-ID=10004)
+  - [Stack Overflow](https://stackoverflow.com/)
+  - [High Charts](https://www.highcharts.com/docs/index)
+  - [W3schools](https://www.w3schools.com/)
+  - [Draw SQL](https://drawsql.app/)
+  - [Figma](https://www.figma.com/)
+  - [Dokumentasjon Template fra Arvid Wedtstein](https://github.com/ArvidWedtstein/Fagproove/tree/main)
+- **Ressurser**
+  - Omega Kollegaer
 
 
  
 <hr />
 </details>
-
-<!-- Urls -->
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
