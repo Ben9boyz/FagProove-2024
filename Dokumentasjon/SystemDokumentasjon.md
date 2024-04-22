@@ -155,13 +155,52 @@ Dette viewet viser Capabilities du har i den contexten(OrgUnit_ID) du står i.
   </ul>
   <hr />
 </details>
-
 <details open>
   <summary>
     <h2>Sikkerhet</h2>
   </summary>
 
+### Autentisering og Tilgangsstyring i Appframe
+
+Autentiseringen på nettsiden vår håndteres gjennom Appframe. Når brukerne besøker siden, møtes de først av en innloggingsside. Her får de valget mellom å logge inn med Microsoft-konto eller med SQL-innlogging ved å oppgi e-postadresse/telefonnummer og passord. Hvis brukeren velger Microsoft, skjer autentiseringen internt hos Microsoft, og det returneres en token som knyttes til brukeren i systemet.
+
+I Appframe er tilgangsstyring satt opp gjennom tilgangstabeller. Brukere har roller, hvor rollen definerer hvilke moduler brukeren har tilgang til. Modulene inneholder data om hvilke apper brukeren kan få tilgang til og tabeller brukeren kan få data fra. Det står også om brukeren har tilgang til å redigere data (AllowEdit) og slette data (AllowDelete). Rollen de har kan også inneholde capabilities, spesifikke tilganger brukeren kan få. Hver rolle som tildeles må tildeles på en OrgUnit.
+
+#### OrgUnit
+
+OrgUnit-ene er bygget rundt en trestruktur der alle OrgUnit-ene vil ha én enkelt forelder. Disse OrgUnit-ene kan ha forskjellige typer, for eksempel Company, Department, Client, Project, osv. For å få tilgang til data må en bruker ha en rolle for en gitt OrgUnit.
+
+Arv gir tilgang til OrgUnits under. Som standard arver brukere tilgang nedover i OrgUnit-strukturen, noe som betyr at hvis du har en rolle i en OrgUnit over, har du også samme rolle i alle OrgUnits under.
+
+OrgUnits kan også ha "DoNotInherit" (arves ikke). For disse OrgUnit-ene er det ikke nok å ha en rolle i en OrgUnit lenger opp i hierarkiet. Bare brukere med en rolle direkte på den DoNotInherit-OrgUniten vil få tilgang.
+
+#### Kontekst
+
+Brukere har også OrgUnit-kontekst, dette definerer hvilke orgunit de har valgt å stå i. Brukeren vil bare se data på eller under OrgUnit de står i.
+
+Eksempel:
+
+![image](https://github.com/Ben9boyz/FagProove-2024/assets/167029110/2311de12-83f0-4e8c-bac8-ad86763db1ee)
+
+
+#### Database Role
+Vanlige Brukere får bare DataBase rollen af_user, denne gir brukeren bare tilgang til lese views, bruke procedure og å bruke funksjoner. De har ikke tilgang til å lese fra en tabell
   <hr />
+  
+### Info til Utvikler
+Alle tabeller som blir opprettet i Appframe får en atbv(view med tilgangs sjekk).
+
+Atbv'en inneholder som regel en whereclause som sjekker om du har role som gir deg tilgang til å se data i tabellen som atbv er basert på. Annen sikkerhet kan legges til også om nedvøndig for ønsket
+Utvikler kan opprette Aviw's når det skal skrives custom views disse viewsen må passe på å innholde en from for tilgangssjekk eller en atbv
+Samme logikk som nevnt ovenfor gjelder for oppreting av stored procedurees eller functions
+
+For logikk rundt sletting og redingering oppretes det Trigger på tabell: Insert Trigger, Update Trigger og Delete Trigger. I disse ligger det som regel en whereclause som sjekker om du har en role som gir deg tilgang til å slette eller redigere data
+Utvikler kan også legge in egne sikkerhets sjekker eller egen logikk i disse trigggerne.
+
+Logikk rundt OrgUnits må implementeres manuelt av utvikler
+
+  Utviklere i system på passe på å bruke views som er atbv eller bruker atbv når de henter ut data. Ellers vil ikke dataen blir filtert på brukerens tilganger. Utikvler skal ikke lage aviws som ikke innholder noe from for sikkerhet
+  
 </details>
 <details open>
   <summary>
