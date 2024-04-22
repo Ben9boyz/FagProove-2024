@@ -145,7 +145,7 @@
     </li>
     <li>
       <details>
-        <summary>Reviews</summary>
+        <summary>Mine Anmeldelser</summary>
         <table>
           <tr>
             <th>Funksjon</th>
@@ -154,32 +154,24 @@
             <th>Bilder</th>
           </tr>
           <tr>
-            <td>Sjekke at svaring av kunde funker</td>
-            <td>Svare på review</td>
+            <td>Redigering</td>
+            <td>Sjekke at redigering av anmeldelse funker</td>
             <td>✅</td>
             <td>
               <table>
-                <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/28478568-5102-4a0c-a147-cfce5373f13d" width="200" /></th>
+                <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/d02281c1-e34b-40b1-88b9-d97314465b85" width="200" /></th>
+                <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/f7671d25-89d9-4033-9416-25cdc5296f17" width="200" /></th>
               </table>
             </td>
           </tr>
           <tr>
-            <td>Filtreing av svarte reviews og Filtering av usvarte reviews</td>
-            <td>Sjekker om rett vises basert på valg</td>
+            <td>Sletting</td>
+            <td>Sjekker om sletting an anmeldelser funker</td>
             <td>✅</td>
             <td>
               <table>
-                <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/a76ae18b-235c-4a52-8281-23b4b9b55332" width="200" /></th>
-              </table>
-            </td>
-          </tr>
-          <tr>
-            <td>Søking</td>
-            <td>Sjekker om søke funksjon funker</td>
-            <td>✅</td>
-            <td>
-              <table>
-                <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/5f0dc3c3-43e7-48ed-a943-268a7584a6a8" width="200" /></th>
+                <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/3970d769-6dd4-40ca-b81a-d51826c0f5fc" width="200" /></th>
+                <th><img src="https://github.com/Ben9boyz/FagProove-2024/assets/167029110/df4038d3-4938-49ca-8bbf-7747fecae08b" width="200" /></th>
               </table>
             </td>
           </tr>
