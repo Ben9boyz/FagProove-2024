@@ -290,7 +290,7 @@ Endte opp å lage mange flere komponenter enn planlagt.
   - [W3schools](https://www.w3schools.com/)
   - [Draw SQL](https://drawsql.app/)
   - [Figma](https://www.figma.com/)
-  - [Dokumentasjon Template fra Arvid Wedtstein](https://github.com/ArvidWedtstein/Fagproove/tree/main)
+  - [Dokumentasjon Template fra Arvid Wedtstein](https://github.com/ArvidWedtstein/Proove-Fagproove/blob/main/System_Documentation.md#detalje-side)
 - **Ressurser**
   - Omega Kollegaer
 
