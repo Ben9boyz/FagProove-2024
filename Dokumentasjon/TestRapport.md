@@ -1,4 +1,4 @@
-<details open>
+
   <summary>
     <h2>Plan for testing</h2>
   </summary>
@@ -6,9 +6,9 @@
     Gå gjennom hovedfunksjonene og teste alt alt fungerer som det skal. Bruker sekundær bruker som bare har rollene for appen jeg tester
   </p>
 <hr>
-</details>
 
-<details open>
+
+
   <summary>
     <h3>BedriftApp</h3>
   </summary>
@@ -91,9 +91,8 @@
       </details>
     </li>
   </ol>
-</details>
 
-<details open>
+
   <summary>
     <h3>KundeApp</h3>
   </summary>
@@ -179,4 +178,4 @@
       </details>
     </li>
   </ol>
-</details>
+
