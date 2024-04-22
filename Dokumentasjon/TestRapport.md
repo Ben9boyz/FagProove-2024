@@ -1,9 +1,9 @@
 
   <summary>
-    <h2>Plan for testing</h2>
+    <h2>Plan for Testing senere</h2>
   </summary>
   <p>
-    Gå gjennom hovedfunksjonene og teste alt alt fungerer som det skal. Bruker sekundær bruker som bare har rollene for appen jeg tester
+       Gå gjennom app å teste alle funksjoner når alt er på plass bruk sekundær bruker som bare har rollene for appen som testes. Utvikler skal selvfølgelig teste underveis i utvikling når ting lages. 
   </p>
 <hr>
 
